@@ -52,5 +52,6 @@ jobs:
           app-name: 'WebApp-GEP1'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_74D6E4D9D3114A4E9392EF435E315919 }}
+          publish-profile: ${{ secrets.AzAppProfile }}
+
 
