@@ -4,7 +4,7 @@ using WebApp1.Models;
 
 namespace WebApp1.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : Controlle
     {
         private readonly ILogger<HomeController> _logger;
 
